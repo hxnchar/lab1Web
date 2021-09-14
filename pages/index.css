@@ -3,6 +3,7 @@ body {
   padding: 0;
   border: none;
   font-size: 1.5em;
+  width: 100vw;
 }
 
 .container {
@@ -51,13 +52,13 @@ body {
   flex-grow: 2;
 }
 
-.Content .Left {
+.content-left {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
 
-.Content .Left .LeftTop {
+.content-left-top {
   background-color: #f3e37c;
   flex-grow: 1;
   justify-content: center;
@@ -65,7 +66,7 @@ body {
   display: flex;
 }
 
-.Content .Left .LeftBottom {
+.content-left-bottom {
   background-color: #f3d34a;
   flex-grow: 5;
   justify-content: center;
@@ -73,13 +74,13 @@ body {
   display: flex;
 }
 
-.Content .Center {
+.content-center {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
 
-.Content .Center .CenterTop {
+.content-center-top {
   background-color: #f3db63;
   flex-grow: 5;
   justify-content: center;
@@ -87,7 +88,7 @@ body {
   display: flex;
 }
 
-.Content .Center .CenterBottom {
+.content-center-bottom {
   background-color: #f3e37c;
   flex-grow: 1;
   justify-content: center;
@@ -95,7 +96,7 @@ body {
   display: flex;
 }
 
-.Content .Right {
+.content-right {
   flex-grow: 1;
   display: flex;
   justify-content: center;
