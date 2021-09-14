@@ -32,12 +32,14 @@ body {
   background-color: #f3a738;
   align-items: center;
   flex-grow: 1;
+  min-width: 700px;
 }
 
 .Top h1 {
   text-align: center;
   width: 25vw;
   color: black;
+  min-width: min-content;
 }
 
 .Top p {
@@ -56,6 +58,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  min-width: 200px;
 }
 
 .content-left-top {
@@ -78,6 +81,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  min-width: 300px;
 }
 
 .content-center-top {
@@ -102,5 +106,5 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #f3d34a;
-  min-width: 20vw;
+  min-width: 200px;
 }
