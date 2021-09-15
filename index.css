@@ -67,6 +67,7 @@ body {
   justify-content: center;
   align-items: center;
   display: flex;
+  min-width: min-content;
 }
 
 .content-left-bottom {
@@ -75,6 +76,7 @@ body {
   justify-content: center;
   align-items: center;
   display: flex;
+  min-width: min-content;
 }
 
 .content-center {
@@ -90,6 +92,7 @@ body {
   justify-content: center;
   align-items: center;
   display: flex;
+  min-width: min-content;
 }
 
 .content-center-bottom {
@@ -98,6 +101,7 @@ body {
   justify-content: center;
   align-items: center;
   display: flex;
+  min-width: min-content;
 }
 
 .content-right {
@@ -107,4 +111,5 @@ body {
   align-items: center;
   background-color: #f3d34a;
   min-width: 200px;
+  min-width: min-content;
 }
