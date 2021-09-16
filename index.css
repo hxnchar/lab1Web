@@ -1,9 +1,19 @@
+:root {
+  --my-dark-orange: #f3a738;
+  --my-light-orange: #f3e37c;
+  --my-light-yellow: #f3d34a;
+}
+
 body {
   margin: 0;
   padding: 0;
   border: none;
   font-size: 1.5em;
   width: 100vw;
+}
+
+img {
+  width: 100%;
 }
 
 .container {
@@ -29,7 +39,7 @@ body {
 
 .Top {
   display: flex;
-  background-color: #f3a738;
+  background-color: var(--my-dark-orange);
   align-items: center;
   flex-grow: 1;
   min-width: 700px;
@@ -49,7 +59,6 @@ body {
 
 .Content {
   display: flex;
-  background-color: gainsboro;
   min-height: 50vh;
   flex-grow: 2;
 }
@@ -62,7 +71,7 @@ body {
 }
 
 .content-left-top {
-  background-color: #f3e37c;
+  background-color: var(--my-light-yellow);
   flex-grow: 1;
   justify-content: center;
   align-items: center;
@@ -71,7 +80,7 @@ body {
 }
 
 .content-left-bottom {
-  background-color: #f3d34a;
+  background-color: var(--my-light-yellow);
   flex-grow: 5;
   justify-content: center;
   align-items: center;
@@ -87,7 +96,7 @@ body {
 }
 
 .content-center-top {
-  background-color: #f3db63;
+  background-color: var(--my-light-orange);
   flex-grow: 5;
   justify-content: center;
   align-items: center;
@@ -96,7 +105,7 @@ body {
 }
 
 .content-center-bottom {
-  background-color: #f3e37c;
+  background-color: var(--my-light-orange);
   flex-grow: 1;
   justify-content: center;
   align-items: center;
@@ -109,7 +118,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f3d34a;
+  background-color: var(--my-light-yellow);
   min-width: 200px;
   min-width: min-content;
 }
