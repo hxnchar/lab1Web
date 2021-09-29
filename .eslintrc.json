@@ -3,6 +3,7 @@
   "plugins": ["sonarjs"],
   "rules": {
     "sonarjs/elseif-without-else": 1,
-    "prefer-destructuring": 1
+    "prefer-destructuring": 1,
+    "semi": 1
   }
 }
