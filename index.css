@@ -5,11 +5,7 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  border: none;
-  font-size: 1.5em;
-  width: 100vw;
+  margin: 0;  
 }
 
 img {
@@ -37,7 +33,7 @@ img {
   margin-right: 2vw;
 }
 
-.Top {
+header, footer {
   display: flex;
   background-color: var(--my-dark-orange);
   align-items: center;
@@ -45,19 +41,19 @@ img {
   min-width: 700px;
 }
 
-.Top h1 {
+header h1, footer h1 {
   text-align: center;
   width: 25vw;
   color: black;
   min-width: min-content;
 }
 
-.Top p {
+header p, footer p {
   width: 73vw;
   margin-left: 1vw;
 }
 
-.Content {
+main {
   display: flex;
   min-height: 50vh;
   flex-grow: 2;
