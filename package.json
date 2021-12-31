@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "eslint .",
+    "stylelint:check": "stylelint \"**/*.css\"  --ignore-path .gitignore",
+    "stylelint:fix": "stylelint \"**/*.css\" --fix  --ignore-path .gitignore",
+    "eslint:check": "eslint . --ignore-path .gitignore",
+    "eslint:fix": "eslint . --fix --ignore-path .gitignore",
+    "format:check": "prettier --check . --ignore-path .gitignore --ignore-path .prettierignore",
+    "format:fix": "prettier --write . --ignore-path .gitignore --ignore-path .prettierignore",
     "prepare": "husky install",
     "stylelint": "npx stylelint \"**/*.css\""
   },
@@ -20,15 +25,12 @@
   "homepage": "https://github.com/hxnchar/lab1web#readme",
   "devDependencies": {
     "eslint": "^7.32.0",
+    "eslint-config-metarhia": "^7.0.1",
+    "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-sonarjs": "^0.10.0",
     "husky": "^7.0.2",
     "prettier": "2.4.1",
     "stylelint": "^13.13.1",
-    "stylelint-config-standard": "^22.0.0",
-    "eslint-config-metarhia": "^7.0.1",
-    "eslint-plugin-import": "^2.24.2"
-  },
-  "dependencies": {
-    
+    "stylelint-config-standard": "^22.0.0"
   }
 }
