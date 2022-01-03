@@ -23,15 +23,15 @@ img {
   background-color: white;
   border: 1px solid black;
   text-align: center;
-  margin-right: 2vw;
+  margin-right: clamp(5px, 2vw, 100px);
 }
 
 .HeaderBottom {
   background-color: white;
   border: 1px solid black;
   text-align: left;
-  padding-left: 1vw;
-  margin-right: 2vw;
+  padding-left: clamp(5px, 1vw, 100px);
+  margin-right: clamp(5px, 2vw, 100px);
 }
 
 header,
@@ -88,7 +88,7 @@ main {
   min-width: min-content;
 }
 
-.content-center {
+main main {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
