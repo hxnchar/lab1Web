@@ -1,5 +1,5 @@
 {
-  "extends": ["plugin:sonarjs/cognitive-complexity", "metarhia"],
+  "extends": ["plugin:sonarjs/recommended", "metarhia"],
   "plugins": ["sonarjs"],
   "rules": {
     "sonarjs/elseif-without-else": 1,
