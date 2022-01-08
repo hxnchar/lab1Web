@@ -1,0 +1,124 @@
+:root {
+  --my-dark-orange: #f3a738;
+  --my-light-orange: #f3e37c;
+  --my-light-yellow: #f3d34a;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.HeaderTop {
+  background-color: white;
+  border: 1px solid black;
+  text-align: center;
+  margin-right: clamp(5px, 2vw, 100px);
+}
+
+.HeaderBottom {
+  background-color: white;
+  border: 1px solid black;
+  text-align: left;
+  padding-left: clamp(5px, 1vw, 100px);
+  margin-right: clamp(5px, 2vw, 100px);
+}
+
+header,
+footer {
+  display: flex;
+  background-color: var(--my-dark-orange);
+  align-items: center;
+  flex-grow: 1;
+  min-width: 700px;
+}
+
+header h1,
+footer h1 {
+  text-align: center;
+  width: 25vw;
+  color: black;
+  min-width: min-content;
+}
+
+header p,
+footer p {
+  width: 73vw;
+  margin-left: 1vw;
+}
+
+main {
+  display: flex;
+  min-height: 50vh;
+  flex-grow: 2;
+}
+
+.content-left {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-width: 200px;
+}
+
+.content-left-top {
+  background-color: var(--my-light-yellow);
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-width: min-content;
+}
+
+.content-left-bottom {
+  background-color: var(--my-light-yellow);
+  flex-grow: 5;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-width: min-content;
+}
+
+main main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-width: 300px;
+}
+
+.content-center-top {
+  background-color: var(--my-light-orange);
+  flex-grow: 5;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-width: min-content;
+}
+
+.content-center-bottom {
+  background-color: var(--my-light-orange);
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-width: min-content;
+}
+
+.content-right {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--my-light-yellow);
+  min-width: 200px;
+  min-width: min-content;
+}
