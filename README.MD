@@ -1,1 +1,1 @@
-1st lab finally done (i hope so)
+Link: https://lab1-web-8wbda9cwx-hxnchar.vercel.app/
